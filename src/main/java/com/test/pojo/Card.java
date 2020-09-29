@@ -2,7 +2,7 @@ package com.test.pojo;
 
 public class Card {
     //卡片数字
-    int cardNum = 0;
+    private int cardNum = 0;
 
     public Card(int num){
         this.cardNum = num;

@@ -6,10 +6,13 @@ import java.util.Queue;
 
 public class Player {
     //玩家名称
-    String playerName;
+    private String playerName;
+
+    //玩家的分数
+    private int score = 0;
 
     //卡片队列
-    List<Card> cardList = new ArrayList<Card>();
+    private List<Card> cardList = new ArrayList<Card>();
 
     public Player(String name){
         this.playerName = name;
@@ -18,6 +21,14 @@ public class Player {
     public Player(String name,ArrayList<Card> list){
         this.playerName = name;
         this.cardList = list;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public void setScore(int score) {
+        this.score = score;
     }
 
     public String getPlayerName() {
