@@ -63,6 +63,10 @@ public class GameStart {
         //判断哪个玩家分数最高
         int maxPlayer = gameCotroller.getMaxIndex(palyerscore);
         System.out.println((maxPlayer+1) + "号玩家" + palyers.get(maxPlayer).getPlayerName() + ",赢得了比赛！！！！" + "分数为" + palyerscore.get(maxPlayer).toString());
+		
+		
+		//这叫什么事啊？
+        //服了
 
     }
 }
